@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('.scrollTo').click( function() { // Au clic sur un élément
+			var page = $(this).attr('href'); // Page cible
+			var speed = 750; // Durée de l'animation (en ms)
+			$('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+			return false;
+		});
+	});
+</script>
+<style type="text/css">
+
+#titre  {
+    text-align:;
+    margin:-8px -10px -10px -10px;
+    font-size:20px;
+    color:#01A9DB;
+    background-color:#ffffff;
+    height: 75px;
+   width:101%;
+   float:right;
+   position:fixed;
+   border-style: solid;
+    border-width: 2px;
+ 
+}
+#crea  {
+    text-align:left;
+    font-size:17px;
+    color:#F2F2F2;
+    border-color:000000;
+    background-image: url(http://wikipics.net/photos/20150125142221651988185.jpg);
+    border:px solid #000000;
+    border-bottom:1px;
+    -webkit-border:1px
+     radius: 1px 10px 0 0;
+    -moz-border-radius: 1px 10px 0 0;
+    border-radius: 1px 1px 0 0;
+    height: 250px;
+    box-shadow: 0 0 px #555;
+   background-color:;
+   width:103,25%;
+   
+
+}
+a {
+text-decoration: none;
+color:#01A9DB;
+
+}
+#menue {
+float:right;
+
+color:#01A9DB;
+font-size:20;
+
+
+}
+#h2 {
+color:#01A9DB;
+text-align:center;
+}
+
+.list-1 { 
+margin-left:15px; 
+margin-bottom:20px; }
+			.
+list-1 li { 
+list-style:square;
+ }
+
+.menu { 
+padding:10px 0; 
+text-align:center;
+ }
+.menu li { 
+display:inline; 
+margin:0 
+10px; 
+}
+.menu a { 
+color:#01A9DB;
+ }
+#rubriques{
+color:#01A9DB;
+text-align:center;
+}
+
+</style>
+</head>
+ 
+<body>
+
+
+<div id="titre">
+<br>
+
+<strong>
+ &nbsp;
+titre fixe
+</strong>
+
+<div id="menue">
+
+<ul class="menu">
+    <li id="services"><a class="scrollTo" href="#services">Services</a></li>
+
+	<li id="rea"><a class="scrollTo" href="#rea">Réalisations</a></li>
+&nbsp;
+	<li="infos"><a class="scrollTo" href="#infos">
+   A propos
+</a></li>&nbsp;&nbsp;&nbsp;
+
+<br></br><br></br>
+
+</ul>
+</a>
+
+
+</div>
+</div>
+
+
+<br>
+</br>
+<br></br>
+
+<div id="crea">
+<br></br>
+<br></br>
+<br></br>
+
+    <center>
+<a href="#">
+la
+</a>
+</center>
+</div>
+<div id="rubriques">
+<h2> Services</h2>
+</div>
+<div id="Services">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod, tellus nec consectetur tincidunt, arcu augue sollicitudin quam, sit amet fermentum felis justo quis magna. Ut dictum risus nec lacus viverra, eu pretium mi aliquet. In lorem velit, hendrerit ut iaculis in, tristique congue augue. Quisque tempor quam sem, vulputate vestibulum eros rhoncus sed. Praesent accumsan nunc dolor, id rhoncus augue semper at. Integer tincidunt tempus turpis, ut sodales est vestibulum nec. Pellentesque sollicitudin libero mauris, nec blandit neque facilisis et.
+
+Vivamus eu scelerisque sapien. Morbi nec massa suscipit, mattis purus sed, iaculis lorem. Nunc a metus in lorem pretium molestie. Suspendisse aliquam, ipsum ut commodo tincidunt, augue urna faucibus sapien, nec volutpat purus sem eget massa. Nunc consequat tincidunt erat. Nullam in diam venenatis ligula iaculis rutrum eu quis purus. Vivamus eleifend velit leo, nec porta magna faucibus eu. Duis pretium mi nisi, in euismod nisl ultrices a. Cras volutpat tellus a consectetur commodo. Ut eget massa ipsum.
+<br>
+</div>
+
+<div id="rubriques">
+<h2> Realisation</h2>
+</div>
+<div id="rea">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod, tellus nec consectetur tincidunt, arcu augue sollicitudin quam, sit amet fermentum felis justo quis magna. Ut dictum risus nec lacus viverra, eu pretium mi aliquet. In lorem velit, hendrerit ut iaculis in, tristique congue augue. Quisque tempor quam sem, vulputate vestibulum eros rhoncus sed. Praesent accumsan nunc dolor, id rhoncus augue semper at. Integer tincidunt tempus turpis, ut sodales est vestibulum nec. Pellentesque sollicitudin libero mauris, nec blandit neque facilisis et.
+
+Vivamus eu scelerisque sapien. Morbi nec massa suscipit, mattis purus sed, iaculis lorem. Nunc a metus in lorem pretium molestie. Suspendisse aliquam, ipsum ut commodo tincidunt, augue urna faucibus sapien, nec volutpat purus sem eget massa. Nunc consequat tincidunt erat. Nullam in diam venenatis ligula iaculis rutrum eu quis purus. Vivamus eleifend velit leo, nec porta magna faucibus eu. Duis pretium mi nisi, in euismod nisl ultrices a. Cras volutpat tellus a consectetur commodo. Ut eget massa ipsum.
+<br></br>
+</div>
+
+<div id="rubriques">
+<h2> A propos</h2>
+</div>
+<div id="infos">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum euismod, tellus nec consectetur tincidunt, arcu augue sollicitudin quam, sit amet fermentum felis justo quis magna. Ut dictum risus nec lacus viverra, eu pretium mi aliquet. In lorem velit, hendrerit ut iaculis in, tristique congue augue. Quisque tempor quam sem, vulputate vestibulum eros rhoncus sed. Praesent accumsan nunc dolor, id rhoncus augue semper at. Integer tincidunt tempus turpis, ut sodales est vestibulum nec. Pellentesque sollicitudin libero mauris, nec blandit neque facilisis et.
+
+Vivamus eu scelerisque sapien. Morbi nec massa suscipit, mattis purus sed, iaculis lorem. Nunc a metus in lorem pretium molestie. Suspendisse aliquam, ipsum ut commodo tincidunt, augue urna faucibus sapien, nec volutpat purus sem eget massa. Nunc consequat tincidunt erat. Nullam in diam venenatis ligula iaculis rutrum eu quis purus. Vivamus eleifend velit leo, nec porta magna faucibus eu. Duis pretium mi nisi, in euismod nisl ultrices a. Cras volutpat tellus a consectetur commodo. Ut eget massa ipsum.
+<br>
+</div>
+
+<br></br><br></br><br></br>
+
+</div>
+
+</body>
+ 
+</html>
